@@ -1,0 +1,83 @@
+/* main .description =============================== */
+main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+main .description p {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  line-height: 140%;
+  padding: 10px 0;
+}
+
+@media(min-width: 768px) {
+  main .description p {
+    font-size: 20px;
+    line-height: 160%;
+  }
+}
+
+@media(min-width: 1024px) {
+  main .description p {
+    font-size: 22px;
+    line-height: 180%;
+  }
+}
+
+/* main offers ===================================== */
+
+main .offers {
+  margin: 20px 0;
+}
+
+main .offer {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+main .offer img {
+  width: 100%;
+}
+
+main .offer p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+@media(min-width: 533px) {
+  main .offers {
+    text-align: center;
+  }
+
+  main .offer {
+    display: inline-block;
+    width: 32%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  main .offer p {
+    font-size: 10px;
+  }
+}
+
+@media(min-width: 736px) {
+  main .offer p {
+    font-size: 12px;
+  }
+}
+
+@media(min-width: 1024px) {
+  main .offer p {
+    font-size: 14px;
+  }
+}
